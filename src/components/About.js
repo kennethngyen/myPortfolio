@@ -1,5 +1,5 @@
 import React from "react";
-import {pfp} from "../imgs/linkedinpfp.jpg"
+import pfp from "../imgs/linkedinpfp.jpg"
 
 export default function About(){
     return(
