@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Kodchasan', sans-serif;
+  /*
+  font-family: 'Poppins', sans-serif;
+  */
+}
+
+.nav{
+  
+}
+.nav ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-left{
+  margin-right: 30px;
+  font-family: 'Poppins';
+}
+
+.nav-right{
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(220,90,90,0.32) 65%, rgba(169,219,255,0) 100%);
+}
+.frame{
+  background-color: white;
+  width: 99%;
+  margin:auto;
+  
+}
+.frameWrapper{
+background: linear-gradient(0deg, rgba(250,197,197,1) 0%, rgba(130,255,142,0.49343487394957986) 50%, rgba(137,255,151,0.6026785714285714) 51%, rgba(15,226,255,0.3) 100%);
+padding:1px;
+}
+.card-showcase{
+  display: flex;
+  flex-wrap: nowrap;
+  gap:1.25em;
+}
+.card{
+  width: 175px;
+  font-size:12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction:column;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*background:#EEB6B6 30%;*/
+  background-color: white;
+  align-items: center;
+  padding:15px;
+}
+
+.card-image{
+  border-radius: 9px;
+  margin-bottom: 9px;
+  width:100%;
+}
+
+.card-title{
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight:bold;
+}
+
+.card-icons{
+padding:5px;
+}
+
+.card-description{
+  font-family: 'Poppins';
+  font-size: 11px;
+}

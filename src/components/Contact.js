@@ -1,0 +1,16 @@
+import React from "react";
+
+export default function Contact(){
+    return(
+    <div>
+        <div className="frameWrapper">
+            <div className="frame">
+                <h1>Contact</h1>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    )
+}
